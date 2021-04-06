@@ -1,0 +1,32 @@
+## 漆狗屋
+
+### 描述
+
+Dilpreet wants to paint his dog- Buzo's home that has n boards with different lengths[A1, A2,..., An]. He hired k painters for this work and each painter takes 1 unit time to paint 1 unit of the board.The problem is to find the minimum time to get this job done under the constraints that any painter will only paint continuous sections of boards, say board {2, 3, 4} or only board {1} or nothing but not board {2, 4, 5}.
+
+Constraints:1<=T<=100,1<=k<=30,1<=n<=50,1<=A[i]<=500
+
+### 输入
+
+The first line consists of a single integer T, the number of test cases. For each test case, the first line contains an integer k denoting the number of painters and integer n denoting the number of boards. Next line contains n- space separated integers denoting the size of boards.
+
+### 输出
+
+For each test case, the output is an integer displaying the minimum time for painting that house.
+
+### 输入样例 1 
+
+```
+2
+2 4
+10 10 10 10
+2 4
+10 20 30 40
+```
+
+### 输出样例 1
+
+```
+20
+60
+```
