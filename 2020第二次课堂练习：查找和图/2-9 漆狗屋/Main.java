@@ -3,7 +3,7 @@ import java.util.Scanner;
 import static java.lang.Math.min;
 import static java.lang.Math.max;
 
-public class Main2 {
+public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int t = scan.nextInt();
