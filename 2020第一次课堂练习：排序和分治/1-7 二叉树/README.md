@@ -1,0 +1,34 @@
+## 二叉树
+
+### 描述
+
+Given a Complete Binary tree, print the level order traversal in sorted order.
+
+### 输入
+
+The first line of the input contains integer T denoting the number of test cases. For each test case, the first line takes an integer n denoting the size of array i.e number of nodes followed by n-space separated integers denoting the nodes of the tree in level order fashion.(1<=T<=100；1<=n<=10^5）
+
+### 输出
+
+For each test case, the output is the level order sorted tree. ( Note: For every level, we only print distinct elements.)
+
+### 输入样例 1 
+
+```
+2
+7
+7 6 5 4 3 2 1
+6
+5 6 4 9 2 1 
+```
+
+### 输出样例 1
+
+```
+7
+5 6
+1 2 3 4
+5
+4 6
+1 2 9
+```
